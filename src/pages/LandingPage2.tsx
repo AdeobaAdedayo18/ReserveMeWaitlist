@@ -124,7 +124,7 @@ export default function Page() {
                       Limited slots available. Launch in:
                     </p>
                     <CountdownTimer2
-                      targetDate="2024-03-01"
+                      targetDate="2025-01-01"
                       isDarkMode={isDarkMode}
                     />
                   </div>
@@ -193,7 +193,7 @@ export default function Page() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-4">
               <span className="text-xl font-bold text-gray-900 dark:text-white">
-                VenueVista
+                ReserveMe
               </span>
               <span className="text-gray-500 dark:text-gray-400">© 2024</span>
             </div>

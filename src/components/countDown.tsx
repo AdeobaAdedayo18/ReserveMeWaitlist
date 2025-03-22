@@ -19,18 +19,22 @@ export function CountdownTimer2({
   targetDate,
   isDarkMode,
 }: CountdownTimerProps) {
+  console.log(isDarkMode);
+
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({
     days: 0,
     hours: 0,
     minutes: 0,
     seconds: 0,
   });
+  console.log(timeLeft);
 
   useEffect(() => {
     const calculateTimeLeft = () => {
       const target = new Date(targetDate).getTime();
       const now = new Date().getTime();
-      const difference = target - now;
+      const difference = now - target;
+      console.log(difference);
 
       if (difference > 0) {
         setTimeLeft({

@@ -1,12 +1,12 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
 
-interface Testimonial {
-  name: string;
-  title: string;
-  quote: string;
-  avatar: string;
-}
+// interface Testimonial {
+//   name: string;
+//   title: string;
+//   quote: string;
+//   avatar: string;
+// }
 
 const TestimonialCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

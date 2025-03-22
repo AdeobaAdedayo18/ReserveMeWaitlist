@@ -9,6 +9,7 @@ export function Venue() {
     if (meshRef.current) {
       meshRef.current.rotation.y += 0.003;
     }
+    console.log(state);
   });
 
   return (
